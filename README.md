@@ -4,13 +4,13 @@ A minimalist mindfulness counter built with vanilla JavaScript, HTML, and CSS.
 
 ## What it does
 
-MindTally lets you track and release your overthinking moments in real time. Each time an intrusive thought hits, you increment the counter. When you're ready to let it go, you save it — logging it to your session history and resetting back to zero. At the end, reset clears everything, giving you a clean slate.
+MindTally lets you track and release your overthinking moments in real time. Each time an intrusive thought hits, you increment the counter. When you're ready to let it go, you save it logging it to your session history and resetting back to zero. At the end, reset clears everything, giving you a clean slate.
 
 The flow mirrors a real mental habit: **acknowledge → log → release.**
 
 ## Why I built it
 
-I built MindTally to put into practice what I was learning about **JavaScript event listeners and DOM manipulation** — but I wanted to build something that actually meant something, not just a todo list. Connecting a technical exercise to a real-world use case (mental awareness) made the learning stick differently.
+I built MindTally to put into practice what I was learning about **JavaScript event listeners and DOM manipulation** but I wanted to build something that actually meant something, not just a todo list. Connecting a technical exercise to a real-world use case (mental awareness) made the learning stick differently.
 
 ## What's under the hood
 
@@ -38,4 +38,4 @@ No installation needed. Clone the repo and open `index.html` in any browser.
 
 ---
 
-_Built as part of my JavaScript fundamentals practice — proof that the best way to learn is to build something you'd actually use._
+\_Built as part of my JavaScript fundamentals practice proof that the best way to learn is to build something you'd actually use.
