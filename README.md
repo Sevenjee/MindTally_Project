@@ -31,11 +31,11 @@ I built MindTally to put into practice what I was learning about **JavaScript ev
 No installation needed. Clone the repo and open `index.html` in any browser.
 
 ```bash
-git clone https://github.com/sevenjee/mindtally.git
-cd mindtally
-open index.html
+
+## Live Demo
+[View Live Site] https://sevenjee.github.io/MindTally_Project/
 ```
 
 ---
 
-*Built as part of my JavaScript fundamentals practice — proof that the best way to learn is to build something you'd actually use.*
+_Built as part of my JavaScript fundamentals practice — proof that the best way to learn is to build something you'd actually use._
