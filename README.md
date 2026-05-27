@@ -31,7 +31,7 @@ I built MindTally to put into practice what I was learning about **JavaScript ev
 No installation needed. Clone the repo and open `index.html` in any browser.
 
 ```bash
-git clone https://github.com/YOUR_USERNAME/mindtally.git
+git clone https://github.com/sevenjee/mindtally.git
 cd mindtally
 open index.html
 ```
