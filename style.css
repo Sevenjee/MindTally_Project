@@ -1,0 +1,143 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --main-background: #c4cfdb;
+    --card-background:#1f2833;
+    --The-button-text:#1f2833;
+    --Second-accent:#d0d9e2;
+    --effect-accent:#f5f7f9;
+    --important-text:#eceff4;
+}
+
+body{
+    font-family: "Google Sans", sans-serif;
+    text-align: center;
+    color: var(--important-text);
+    background-color: var(--main-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+    background-image:linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.6)), url("cooper-hofmann-OBgh6h_2yL0-unsplash.jpg");
+    background-size: cover;
+}
+h1{
+    margin-bottom: 20px;
+     font-size:50px;
+}
+h2{
+    font-size: 3.5rem;
+}
+.text{
+    margin-bottom: 12px;
+    font-size: 18px;
+    font-weight: 600;
+    max-width: min(300px, 80vw);
+}
+.container-jar {
+    width: min(400px, 90vw);
+    height: 500px;
+    background-color: var(--card-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 0.5rem;
+    border: 2px solid var(--effect-accent);
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+   transition: background-color 0.4s ease;
+      
+}
+
+.container-btn{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+.btn-action1 {
+    padding: 0.30rem 0.40rem;
+}
+.btn-action2{
+    margin-top: 0.50rem;
+    padding: 0.30rem 0.40rem;
+}
+
+.btn-action{
+    background-color: var(--Second-accent);
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 12px;
+    color: var(--The-button-text);
+    border: none;
+    border-radius: 4px; 
+    padding: 10px 20px; 
+    margin: 10px;
+    width: 100%;
+    max-width: 110px;
+}
+.btn-action:hover{
+    background-color: var(--effect-accent);
+}
+
+/* Small phones (up to 480px) */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 32px;
+        margin-bottom: 12px;
+    }
+    h2 {
+        font-size: 2.5rem;
+    }
+    .container-jar {
+        height: auto;
+        min-height: 420px;
+        padding: 2rem 1rem;
+    }
+    .text {
+        font-size: 15px;
+    }
+    .btn-action {
+        font-size: 11px;
+        padding: 8px 16px;
+    }
+}
+
+/* Tablets (768px and up) */
+@media (min-width: 768px) {
+    h1 {
+        font-size: 56px;
+    }
+    h2 {
+        font-size: 4rem;
+    }
+    .container-jar {
+        width: 420px;
+        height: 520px;
+    }
+    .btn-action {
+        font-size: 13px;
+        max-width: 120px;
+    }
+}
+
+/* Desktops (1024px and up) */
+@media (min-width: 1024px) {
+    h1 {
+        font-size: 60px;
+    }
+    h2 {
+        font-size: 4.5rem;
+    }
+    .container-jar {
+        width: 460px;
+        height: 540px;
+    }
+}
+
