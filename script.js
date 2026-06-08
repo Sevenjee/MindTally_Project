@@ -70,7 +70,6 @@ function saveBtn() {
     countEl.textContent = 0;
     counterCard.style.backgroundColor = "#26171f";
 }
-
 /*This function redraws the full entries list from scratch.
 Called after every save, delete, or page load.*/
 
@@ -122,23 +121,19 @@ function renderEntries (){
 
         
     });
-
     
 }
 
-// ============================================================
 //  FEATURE 6 — Delete a single entry
-// ============================================================
+
 function deleteEntry(index) {
     entries.splice(index, 1);   // remove 1 item at position index
     saveToStorage();             // update localStorage
     renderEntries();             // redraw the list
 }
 
-
-// ============================================================
 //  YOUR ORIGINAL RESET — updated to also clear localStorage
-// ============================================================
+
 resetBtn.addEventListener('click', resetEntry);
 function resetEntry() {
     count = 0;
@@ -149,13 +144,9 @@ function resetEntry() {
     counterCard.style.backgroundColor = "#1f2833";
 }
 
-
-// ============================================================
 //  START — load any previously saved entries on page open
-// ============================================================
+
 loadFromStorage();
-
-
 
 /*resetBtn.addEventListener('click', resetEntry)
 function resetEntry() {
